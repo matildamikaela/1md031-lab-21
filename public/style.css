@@ -1,1 +1,103 @@
-/*empty*/
+@import 'https://fonts.googleapis.com/css?family=Pacifico|Dosis';
+/* Your comment goes here */
+body {
+   font-family: sans-serif;
+   font-style: italic;
+   font-size: 18px;
+}
+
+.header {
+   text-align: center;
+   font-size: 1.5em;
+   color: #85498c;
+   margin: 10px 50px;
+  /* height: ;*/
+   overflow: hidden;
+   padding: 10px;
+
+
+
+}
+
+.header div{
+     opacity: .5;
+     width: 100%;
+     height: auto;
+
+}
+
+.header h1{
+  position: absolute;
+  margin-top: -2.5em;
+  /*top: ;
+	left: ;*/
+}
+
+.allergener {
+   /*text-transform: uppercase;*/
+   font-weight: bold;
+}
+
+#assortement {
+   color: #444;
+   background-color:Lavender;
+   margin: 10px 50px;
+   border: 2px dashed #Lavender;
+   border-radius: 25px;
+   padding: 10px 50px;
+}
+
+#assortement div {
+   padding: 4px;
+
+}
+
+
+#contact {
+   color: black  ;
+   margin: 10px 50px;
+   border: 2px dashed black;
+   border-radius: 25px;
+   padding: 10px 50px;
+}
+
+button:hover {
+   color: #b62f89;
+   background-color:orange;
+   cursor:copy;
+ }
+
+ button{
+ margin: 0px 50px;
+ }
+
+ .wrapper {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 33% 33% 33%;
+      background-color: #Lavender;
+      color: #444;
+  }
+
+  .box {
+      color: #Black;
+      border-radius: 5px;
+      padding: 20px;
+      font-size: 100%;
+
+  }
+
+  .a {
+
+  }
+  .b {
+
+  }
+  .c {
+
+  }
+
+/*#idname {
+   text-transform:
+    margin: 50px;
+}*/
