@@ -1,147 +1,17 @@
-
-<!DOCTYPE HTML>
-<html lang="en"> <!-- Your comment goes here -->
-   <head>
-     <link rel="stylesheet" type="text/css" href="style.css">
-       <title>Silvers tjorre</title>
-       <meta charset="utf-8"/>
-   </head>
-     <!---------------------------------------------------->
-   <body>
-
-
-    <header class="header">
-      <div>
-        <img src= "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/four-happy-cats-website-banner-susan-schmitz.jpg" alt="Happy cats" title="Nöjda kunder">
-      </div>
-        <h1>Välkommen till katten Silvers spektakulära godiskiosk </h1>
-    </header>
-    <!--<nav>Meny!</nav> ---->
-
-    <main>
-
-       <section id="assortement">
-         <h2>Välj godis</h2>
-         Här väljer du godis
-
-<div class="wrapper">
-
-  <div class="box a">
-          <div style="float:left;">
-          <h3>Partymix</h3>
-          <img src="https://cdn11.bigcommerce.com/s-ibzrultj27/products/2365/images/4405/latz-party-mix-orginal-2e__16219.1615631011.386.513.jpg?c=1"
-          alt="Partymix" title="Partymix" style="width: 245px">
-            <ul>
-                <li>Lika goda till vardags som till fest!</li>
-                  <span class="allergener">
-                  </span>
-
-               <li>Innehåll: Partybitar.</li>
-
-            </ul> </div>
-  </div>
-
-
-<div class="box b">
-            <div style="float:left;">
-            <h3>Torkad Firre</h3>
-            <img src="https://www.kattkompaniet.nu/images/2.61863/kattgodis-torkad-smafisk.jpeg"
-            alt="Fisk" title="Firre" style="width: 350px">
-              <ul>
-                  <li>Fångade av katten Justus personligen</li>
-                <li>Innehåll: Abborre, <span class="allergener"> pulver.</span></li>
-              </ul> </div>
-</div>
-
-
-<div class="box c">
-              <div style="display: inline-block;">
-              <h3>Kattmynta</h3>
-              <img src="https://img.tradera.net/medium/929/399718929_d89c253b-f565-4b42-a31f-721587dd49d2.jpg"
-              alt="kattmynta" title="Kattmynta" style="width: 310px">
-                <ul>
-                    <li> Odlad av gatukatter i Amsterdam</li>
-                    <li>Innehåll:   Torkad <span class="allergener"> kattmynta</span>*. <br> (*=fairtrade)</li>
-                    <li>För varje såld produkt skänker vi <br>10kr till ett lokalt katthem</li>
-                </ul> </div>
-</div>
- </div>
-
-          </section>
-
-
-
-       <!---------------------------------------------------->
-
-       <section id="contact">
-
-
-          <h2> Beställningsinformation</h2>
-          Fyll i nödvändig information nedan för att lägga din beställning
-
-          <h3>Leveransinformation</h3>
-
-          <form>
-            <p>
-                <label for="firstname">Namn</label><br>
-                <input type="text" id="firstname" name="fn" required="required" placeholder="För- och efternamn">
-            </p>
-
-            <p>
-              <label for="email">E-postadress</label><br>
-                <input type="email" id="email" name="em" required="required" placeholder="Email-adress">
-            </p>
-
-            <p>
-            <label for="adress">Gata</label><br>
-              <input type="text" id="adress" name="ad" required="required" placeholder="Gatunamn">
-          </p>
-
-          <p>
-          <label for="adress">Gatunummer</label><br>
-            <input type="number" id="adress" name="ad" required="required" placeholder="Välj nummer">
-        </p>
-
-        <p>
-           <label for="betalning">Betalningsmetod</label><br>
-
-           <select id="betalning" name="bm">
-               <option selected="selected" >Klia silver bakom öronen</option>
-               <option>Faktura Klarna</option>
-               <option>Kortbetalning</option>
-               <option>Presentkort</option>
-               <option>Cash money</option>
-           </select>
-        </p>
-
-       <p>Kön:</p>
-       <div>
-
-
-          <input type="radio" id="alt1" name="gen" value="hona" >
-          <label for="alt1">Hona</label> <br>
-
-          <input type="radio" id="alt2" name="gen" value="hane" >
-          <label for="alt2">Hane</label> <br>
-
-          <input type="radio" id="alt3" name="gen" value="kastrerad" >
-          <label for="alt3">Kastrerad/steriliserad</label>
-
-
-        </div>
-
-        </form>
-      </section> <!--FLYTTADE från under slutet av button-->
-
-        <button type="submit">
-          <img src="https://www.kindpng.com/picc/m/340-3402170_shop-now-png-transparent-shop-now-button-png.png" style="width: 150px" >
-        </button>
-
-
-    </main>
-    <hr>
-    <footer>
-       &copy; 2021 KitCat Inc.
-    </footer
- </body>
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
 </html>
